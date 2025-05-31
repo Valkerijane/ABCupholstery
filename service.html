@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="image-container">
+            <img src="images/pic 1.jpg" alt="brown fabric">
+            <div class="text-overlay">Welcome to ABC upholstery</div>
+    </header>
+    <section class="service-form">
+        <h1>Request a Service</h1>
+        <p>Fill out the form below to send your request directly to one of our skilled craftsmen.</p>
+        <form action="mailto:abcuph1@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+            
+            <label for="details">Details:</label>
+            <textarea id="details" name="details" placeholder="Describe your project" rows="5" required></textarea>
+            
+            <button type="submit" class="cta-button">Send Request</button>
+        </form>
+    </section>
+    <footer>
+        <p>© ABC Upholstery</p>
+    </footer>
+</body>
+</html>
